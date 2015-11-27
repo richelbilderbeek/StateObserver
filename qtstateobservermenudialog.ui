@@ -33,7 +33,7 @@ QPushButton { font: 48px, &quot;monospace&quot; }</string>
       <string/>
      </property>
      <property name="pixmap">
-      <pixmap resource="ToolStateObserver.qrc">:/images/ToolStateObserverWelcome.png</pixmap>
+      <pixmap resource="StateObserver.qrc">:/images/StateObserverWelcome.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -64,7 +64,7 @@ QPushButton { font: 48px, &quot;monospace&quot; }</string>
   </layout>
  </widget>
  <resources>
-  <include location="ToolStateObserver.qrc"/>
+  <include location="StateObserver.qrc"/>
  </resources>
  <connections/>
 </ui>

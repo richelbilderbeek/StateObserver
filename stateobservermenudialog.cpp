@@ -31,7 +31,6 @@ along with this program.If not, see <http://www.gnu.org/licenses/>.
 #include "integersymmetricalphafilter.h"
 #include "multialphafilter.h"
 #include "multiintegerstateobserver.h"
-#include "richelbilderbeekprogram.h"
 #include "trace.h"
 #include "testtimer.h"
 
@@ -56,7 +55,7 @@ ribi::About ribi::StateObserverMenuDialog::GetAbout() const noexcept
     "Richel Bilderbeek",
     "StateObserver",
     "tool to examine state observers",
-    "the 12th of July 2013",
+    "November 27th of 2015",
     "2013-2015",
     "http://www.richelbilderbeek.nl/ToolStateObserver.htm",
     GetVersion(),
@@ -87,18 +86,9 @@ ribi::Help ribi::StateObserverMenuDialog::GetHelp() const noexcept
   );
 }
 
-boost::shared_ptr<const ribi::Program> ribi::StateObserverMenuDialog::GetProgram() const noexcept
-{
-  const boost::shared_ptr<const Program> p {
-    new ProgramStateObserver
-  };
-  assert(p);
-  return p;
-}
-
 std::string ribi::StateObserverMenuDialog::GetVersion() const noexcept
 {
-  return "1.3";
+  return "2.0";
 }
 
 std::vector<std::string> ribi::StateObserverMenuDialog::GetVersionHistory() const noexcept
@@ -108,7 +98,8 @@ std::vector<std::string> ribi::StateObserverMenuDialog::GetVersionHistory() cons
     "2013-06-04: version 1.1: added more state observers, allow plotting of subset of state observers",
     "2013-06-17: version 1.1: improved menu screen",
     "2013-07-12: version 1.2: transitioned to Qt5 and Boost 1.54.0",
-    "2013-11-05: version 1.3: conformized for ProjectRichelBilderbeekConsole"
+    "2013-11-05: version 1.3: conformized for ProjectRichelBilderbeekConsole",
+    "2015-11-27: version 2.0: moved to own GitHub",
   };
 }
 
