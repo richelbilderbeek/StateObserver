@@ -26,6 +26,9 @@ install:
   - sudo pip install codecov
   # OCLint
   - ./install_oclint
+  # Other GitHubs
+  - ./download_other_githubs
+  - ./install_other_githubs
 
 # Start virtual X server, from https://docs.travis-ci.com/user/gui-and-headless-browsers/
 before_script:
