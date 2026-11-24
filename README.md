@@ -1,5 +1,7 @@
 # StateObserver
 
+[Go to the nicely rendered website](https://richelbilderbeek.github.io/StateObserver/).
+
 Branch|[![Travis CI logo](TravisCI.png)](https://travis-ci.org)|[![Codecov logo](Codecov.png)](https://www.codecov.io)
 ---|---|---
 master|[![Build Status](https://travis-ci.org/richelbilderbeek/StateObserver.svg?branch=master)](https://travis-ci.org/richelbilderbeek/StateObserver)|[![codecov.io](https://codecov.io/github/richelbilderbeek/StateObserver/coverage.svg?branch=master)](https://codecov.io/github/richelbilderbeek/StateObserver/branch/master)
