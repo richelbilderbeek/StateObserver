@@ -32,7 +32,6 @@ along with this program.If not, see <http://www.gnu.org/licenses/>.
 #include "multialphafilter.h"
 #include "multiintegerstateobserver.h"
 #include "trace.h"
-#include "testtimer.h"
 
 int ribi::StateObserverMenuDialog::ExecuteSpecific(const std::vector<std::string>& argv) noexcept
 {
@@ -111,6 +110,5 @@ void ribi::StateObserverMenuDialog::Test() noexcept
     if (is_tested) return;
     is_tested = true;
   }
-  const TestTimer test_timer(__func__,__FILE__,1.0);
 }
 #endif
